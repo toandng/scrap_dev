@@ -1,0 +1,53 @@
+
+.nav{
+    display: flex;
+    align-items: center;
+}
+.div{
+    display: flex;
+ 
+}
+
+// .homeForm
+.container{
+    width: 30%;
+    height: 100vh;
+    background-color: #fafafa;
+    box-shadow: 4px 0 6px rgba(0,0,0,.15);
+}
+.infoAccount{
+    display: flex;
+   
+}
+.formSubmit{
+    background-color: #f2f2f2;
+    padding: 30px 30px;
+
+}
+
+.inputForm{ 
+    
+    padding: 10px 20px;
+    margin: 20px auto;
+    background-color: #fff;
+    outline: none;
+    border: 1px solid #b0a7a7;
+
+
+}
+.iconInput{
+    position: relative;
+}
+.iconUser{
+  position: absolute;
+  right: 6px;
+  top: 30px;
+
+}
+
+
+
+// map
+.map{
+    padding: 100px 100px;
+}

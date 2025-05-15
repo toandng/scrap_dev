@@ -4,23 +4,13 @@ import Footer from "./components/Footer";
 
 function DefaultLayout() {
   return (
-    <div style={{ minHeight: "100vh", paddingBottom: "60px" }}>
+    <div>
       <Header />
       <main>
-        <div
-          style={{
-            display: "flex",
-          }}
-        >
+        <div>
           {/* <SlideBar /> */}
 
-          <div
-            style={{
-              width: "100%",
-              margin: " 0 auto",
-              padding: "0 32px 0 10px",
-            }}
-          >
+          <div>
             <div className="container-fluid">
               <Outlet />
             </div>

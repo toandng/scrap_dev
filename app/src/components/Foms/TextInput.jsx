@@ -1,7 +1,10 @@
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import PropsTypes from "prop-types";
+import styles from "../Foms/TextInput.module.scss";
 function TextInput({
   type = "text",
   name,
+  icon,
   placeholder,
   className,
   register,
@@ -9,6 +12,7 @@ function TextInput({
 }) {
   return (
     <div>
+      {icon && <FontAwesomeIcon icon={icon} className={styles.inputIcon} />}
       <input
         type={type}
         name={name}
@@ -26,7 +30,10 @@ TextInput.propTypes = {
   name: PropsTypes.string,
   className: PropsTypes.string,
   placeholder: PropsTypes.string,
-  register: PropsTypes.string,
-  message: PropsTypes.object,
+  register: PropsTypes.object,
+  message: PropsTypes.string,
+  icon: PropsTypes.object,
+  value: PropsTypes.string,
+  onChange: PropsTypes.func,
 };
 export default TextInput;
