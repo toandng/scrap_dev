@@ -14,10 +14,18 @@
     height: 100vh;
     background-color: #fafafa;
     box-shadow: 4px 0 6px rgba(0,0,0,.15);
+    margin: 0px 60px;
 }
 .infoAccount{
     display: flex;
    
+}
+.div h1{
+    padding: 20px 20px;
+    margin: 0px auto;
+    font-size: 20px;
+    opacity: 0.9;
+    
 }
 .formSubmit{
     background-color: #f2f2f2;
@@ -44,10 +52,36 @@
   top: 30px;
 
 }
+button{
+    background-color: #2c3e50;
+    color: #fff;
+    font-size: 16px;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+/* Home.module.scss */
 
 
 
 // map
-.map{
-    padding: 100px 100px;
+.wrapper{
+    .map {
+            padding: 200px 200px;   
+        
+    } p{
+        text-align: center;
+        font-size: 14px;
+        opacity: 0.9;
+        font-family: "Gill Sans",
+            sans-serif;;
+    } h2{
+        font-weight: 600;
+        font-size: 18px;
+       text-align: center;
+       margin: 5px auto;
+    }
 }
+
+// sideBar
+

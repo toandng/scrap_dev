@@ -1,0 +1,61 @@
+.container {
+    transition: margin-left 0.3s ease;
+}
+
+.shifted {
+    margin-left: 300px; // hoặc điều chỉnh tùy chiều rộng sidebar
+}
+
+.wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.nav {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    cursor: pointer;
+    font-size: 24px;
+}
+
+.toggleIcon {
+    color: #333;
+}
+
+.profileContainer {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 300px;
+    height: 100vh;
+    background: white;
+    transition: transform 0.3s ease;
+    z-index: 999;
+}
+
+.profileShow {
+    transform: translateX(0);
+}
+
+.profileHide {
+    transform: translateX(-100%);
+}
+
+.mainContent {
+    padding: 20px;
+}
+.closeButton {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: transparent;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    color: #333;
+    padding: 5px 10px;
+    z-index: 10;
+}
